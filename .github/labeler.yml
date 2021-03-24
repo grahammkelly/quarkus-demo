@@ -1,15 +1,2 @@
 documentation:
-  any: ['README.md', 'CHANGELOG.md', '**/*.txt', '**/*.md']
-
-configuration:
-  any: ['kubernetes/**', 'templates/**', 'src/main/resources/**', 'src/test/resources/**']
-
-build:
-  any: ['build.gradle', 'settings.gradle', 'Dockerfile', 'Jenkinsfile', 'pipeline-config.yml', '**/lombok.config']
-
-source_code:
-  any: ['src/main/**']
-  all: ['!src/main/resources/**']
-
-tests:
-  - src/test/**
+- any: ["README.md"]
